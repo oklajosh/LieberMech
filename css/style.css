@@ -1,1 +1,10 @@
 
+.row {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.carousel{
+  height: 50%;
+  width: 90%;
+}
