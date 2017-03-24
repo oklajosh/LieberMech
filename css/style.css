@@ -14,3 +14,8 @@
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
+.phoneBox{
+  background-color: rgb(255,210,0); 
+  padding: 1rem 1rem 1rem 1rem;
+}
