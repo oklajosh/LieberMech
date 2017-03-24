@@ -17,5 +17,7 @@
 
 .phoneBox{
   background-color: rgb(255,210,0); 
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0 auto;
+  display: inline-block;
 }
