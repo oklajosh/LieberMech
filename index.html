@@ -41,135 +41,303 @@
     </style>
   </head>
   <body>
-    <!--Navbar-->    
-    <nav class="navbar navbar-toggleable-md navbar-light">    
-      <div class="container">        
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx12" aria-controls="collapseEx2" aria-expanded="false" aria-label="Toggle navigation">            
-          <span class="navbar-toggler-icon"></span>        
-        </button>        
-        <a class="navbar-brand" href="#" style="position:relative; font-family:'Impact'; color:#000;">            
-          <i>Lieber</i><br />            
-          <i>Mechanical <small>LLC</small></i>        
-        </a>        
-        <div class="collapse navbar-collapse" id="collapseEx12">           
-          <ul class="navbar-nav mr-auto">                
-            <li class="nav-item active">                    
-              <a class="nav-link">Home <span class="sr-only">(current)</span></a>                
-            </li>                
-            <li class="nav-item">                    
-              <a class="nav-link">Features</a>                
-            </li>                
-            <li class="nav-item">                    
-              <a class="nav-link">Pricing</a>                
-            </li>            
-          </ul>            
-          <ul class="navbar-nav nav-flex-icons">                
-            <li class="nav-item">                    
-              <a class="nav-link"><i class="fa fa-facebook"></i></a>                
-            </li>                
-            <li class="nav-item">                    
-              <a class="nav-link"><i class="fa fa-twitter"></i></a>                
-            </li>                
-            <li class="nav-item">                    
-              <a class="nav-link"><i class="fa fa-instagram"></i></a>                
-            </li>            
-          </ul>        
-        </div>    
-      </div>    
-    </nav>    
-    <!--/.Navbar-->
-    
+    <header>
 
-    
-    <div class="row">
-      <!--Carousel Wrapper-->
-      <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-          <!--Indicators-->
-          <ol class="carousel-indicators">
-              <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-2" data-slide-to="1"></li>
-              <li data-target="#carousel-example-2" data-slide-to="2"></li>
-          </ol>
-          <!--/.Indicators-->
+        <!--Navbar-->
+        <nav class="navbar navbar-toggleable-md navbar-dark bg-primary">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapseEx2" aria-controls="collapseEx2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="position:relative; font-family:'Impact'; color:#000;">            
+                  <i>Lieber</i><br />            
+                  <i>Mechanical <small>LLC</small></i>        
+                </a>
+                <div class="collapse navbar-collapse" id="collapseEx2">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item btn-group">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <a class="dropdown-item">Action</a>
+                                <a class="dropdown-item">Another action</a>
+                                <a class="dropdown-item">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-flex-icons">                
+                      <li class="nav-item">                    
+                        <a class="nav-link"><i class="fa fa-facebook"></i></a>                
+                      </li>                         
+                    </ul>   
+                </div>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+    </header>
 
-          <!--Slides-->
-          <div class="carousel-inner" role="listbox">
-              <!--First slide-->
-              <div class="carousel-item active">
-                  <!--Mask color-->
-                  <div class="view hm-black-light">
-                      <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg" class="img-fluid" alt="">
-                      <div class="full-bg-img">
+    <main>
+
+        <!--Main layout-->
+        <div class="container">
+          
+          <div class="row">
+              <!--Carousel Wrapper-->
+              <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                  <!--Indicators-->
+                  <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                  </ol>
+                  <!--/.Indicators-->
+
+                  <!--Slides-->
+                  <div class="carousel-inner" role="listbox">
+                      <!--First slide-->
+                      <div class="carousel-item active">
+                          <!--Mask color-->
+                          <div class="view hm-black-light">
+                              <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg" class="img-fluid" alt="">
+                              <div class="full-bg-img">
+                              </div>
+                          </div>
+                          <!--Caption-->
+                          <div class="carousel-caption">
+                              <div class="animated fadeInDown">
+                                  <h3 class="h3-responsive">Light mask</h3>
+                                  <p>Secondary text</p>
+                              </div>
+                          </div>
+                          <!--Caption-->
                       </div>
-                  </div>
-                  <!--Caption-->
-                  <div class="carousel-caption">
-                      <div class="animated fadeInDown">
-                          <h3 class="h3-responsive">Light mask</h3>
-                          <p>Secondary text</p>
+                      <!--/First slide-->
+
+                      <!--Second slide-->
+                      <div class="carousel-item">
+                          <!--Mask color-->
+                          <div class="view hm-black-strong">
+                              <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(27).jpg" class="img-fluid" alt="">
+                              <div class="full-bg-img">
+                              </div>
+                          </div>
+                          <!--Caption-->
+                          <div class="carousel-caption">
+                              <div class="animated fadeInDown">
+                                  <h3 class="h3-responsive">Strong mask</h3>
+                                  <p>Secondary text</p>
+                              </div>
+                          </div>
+                          <!--Caption-->
                       </div>
+                      <!--/Second slide-->
+
+                      <!--Third slide-->
+                      <div class="carousel-item">
+                          <!--Mask color-->
+                          <div class="view hm-black-slight">
+                              <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(24).jpg" class="img-fluid" alt="">
+                              <div class="full-bg-img">
+                              </div>
+                          </div>
+                          <!--Caption-->
+                          <div class="carousel-caption">
+                              <div class="animated fadeInDown">
+                                  <h3 class="h3-responsive">Super light mask</h3>
+                                  <p>Secondary text</p>
+                              </div>
+                          </div>
+                          <!--Caption-->
+                      </div>
+                      <!--/Third slide-->
                   </div>
-                  <!--Caption-->
+                  <!--/.Slides-->
+
+                  <!--Controls-->
+                  <a class="left carousel-control" href="#carousel-example-2" role="button" data-slide="prev">
+                      <span class="icon-prev" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-2" role="button" data-slide="next">
+                      <span class="icon-next" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+                  <!--/.Controls-->
               </div>
-              <!--/First slide-->
+              <!--/.Carousel Wrapper-->
+            </div>
+          
+            <!--First row-->
+            <div class="row">
+                <div class="col-md-7">
+                    <!--Featured image -->
+                    <div class="view overlay hm-white-light z-depth-1-half">
+                        <img src="https://mdbootstrap.com/images/proffesions/slides/socialmedia/img%20(2).jpg" class="img-fluid " alt="">
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <br>
+                </div>
 
-              <!--Second slide-->
-              <div class="carousel-item">
-                  <!--Mask color-->
-                  <div class="view hm-black-strong">
-                      <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(27).jpg" class="img-fluid" alt="">
-                      <div class="full-bg-img">
-                      </div>
-                  </div>
-                  <!--Caption-->
-                  <div class="carousel-caption">
-                      <div class="animated fadeInDown">
-                          <h3 class="h3-responsive">Strong mask</h3>
-                          <p>Secondary text</p>
-                      </div>
-                  </div>
-                  <!--Caption-->
-              </div>
-              <!--/Second slide-->
+                <!--Main information-->
+                <div class="col-md-5">
+                    <h2 class="h2-responsive">We are professionals</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis pariatur quod ipsum atque quam dolorem voluptate officia sunt placeat consectetur alias fugit cum praesentium ratione sint mollitia, perferendis natus quaerat!</p>
+                    <a href="" class="btn btn-primary">Get it now!</a>
+                </div>
+            </div>
+            <!--/.First row-->
 
-              <!--Third slide-->
-              <div class="carousel-item">
-                  <!--Mask color-->
-                  <div class="view hm-black-slight">
-                      <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(24).jpg" class="img-fluid" alt="">
-                      <div class="full-bg-img">
-                      </div>
-                  </div>
-                  <!--Caption-->
-                  <div class="carousel-caption">
-                      <div class="animated fadeInDown">
-                          <h3 class="h3-responsive">Super light mask</h3>
-                          <p>Secondary text</p>
-                      </div>
-                  </div>
-                  <!--Caption-->
-              </div>
-              <!--/Third slide-->
-          </div>
-          <!--/.Slides-->
+            <div class="row">
+                <a class="btn btn-success btn-lg"><i class="fa fa-phone left"></i> (405) 265-4695</a>
+            </div>
+          
+            <!--Second row-->
+            <div class="row">
+                <!--First columnn-->
+                <div class="col-md-4">
+                    <!--Card-->
+                    <div class="card">
 
-          <!--Controls-->
-          <a class="left carousel-control" href="#carousel-example-2" role="button" data-slide="prev">
-              <span class="icon-prev" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-2" role="button" data-slide="next">
-              <span class="icon-next" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>
-          <!--/.Controls-->
-      </div>
-      <!--/.Carousel Wrapper-->
-    </div>
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/images/regular/city/img%20(2).jpg" class="img-fluid" alt="">
+                            <a href="#">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h4 class="card-title">Card title</h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--First columnn-->
+
+                <!--Second columnn-->
+                <div class="col-md-4">
+                    <!--Card-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/images/regular/city/img%20(4).jpg" class="img-fluid" alt="">
+                            <a href="#">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h4 class="card-title">Card title</h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Second columnn-->
+
+                <!--Third columnn-->
+                <div class="col-md-4">
+                    <!--Card-->
+                    <div class="card">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/images/regular/city/img%20(8).jpg" class="img-fluid" alt="">
+                            <a href="#">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block">
+                            <!--Title-->
+                            <h4 class="card-title">Card title</h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Third columnn-->
+            </div>
+            <!--/.Second row-->
+        </div>
+        <!--/.Main layout-->
+
+    </main>
+
+    <!--Footer-->
+    <footer class="page-footer blue center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-6">
+                    <h5 class="title">Footer Content</h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-6">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2015 Copyright: <a href="https://mdbootstrap.com"> MDBootstrap.com </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+   
     
-    <div class="row">
-        <a class="btn btn-success btn-lg"><i class="fa fa-phone left"></i> (405) 265-4695</a>
-    </div>
     
     <!-- SCRIPTS -->    
     <!-- JQuery -->    
