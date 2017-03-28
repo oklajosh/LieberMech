@@ -1,2 +1,20 @@
 
 
+.row {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.topAndBottomBorder{
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.phoneBox{
+  background-color: rgb(255,210,0); 
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0 auto;
+  display: inline-block;
+}
