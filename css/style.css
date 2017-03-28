@@ -20,3 +20,13 @@
   margin: 0 auto;
   display: inline-block;
 }
+
+.img_wrapper{
+    margin: 0px auto 0px auto;
+    text-align: center;
+    overflow: hidden;  
+}
+
+.img_wrapper img{
+  margin: 0px auto 0px auto;
+}
