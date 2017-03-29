@@ -51,14 +51,14 @@
 }
 
 .footer-badges{
-  background-color:#FFE365;
+  background-color:#FFE365!important;
   color:#000;
 }
 .footer-links{
-  background-color:#FFDB3B;
+  background-color:#FFDB3B!important;
   color:#000;
 }
 .footer-copyright{
-  background-color:#C7A300;
+  background-color:#C7A300!important;
   color:#000;
 }
