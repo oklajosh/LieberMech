@@ -50,3 +50,15 @@
   margin: 0px auto 0px auto;
 }
 
+.footer-badges{
+  background-color:#FFE365;
+  color:#000;
+}
+.footer-links{
+  background-color:#FFDB3B;
+  color:#000;
+}
+.footer-copyright{
+  background-color:#C7A300;
+  color:#000;
+}
