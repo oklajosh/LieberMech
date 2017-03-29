@@ -66,5 +66,8 @@
   padding-top: 1rem!important;
   padding-bottom: 1rem!important;
   background-color:#FFDB3B;
-  color:#000;
+  color:#fff;
+}
+.footer-copyright a{
+  color:#fff;
 }
